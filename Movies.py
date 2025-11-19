@@ -17,7 +17,7 @@ st.title("What Should I Watch Tonight?")
 # In[2]:
 
 
-df=pd.read_csv("/Users/kaj/Documents/Python/Movie_Picker/netflix_data.csv")
+df=pd.read_csv("netflix_data.csv")
 df=df[df["Series or Movie"]=="Movie"]
 
 
